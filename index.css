@@ -1,0 +1,118 @@
+/*rules for each page (6)*/
+.headHover{
+    text-align: center;
+    background-color: peachpuff;
+}
+.headHover img{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 25px; right: 5%;
+}
+.nav{
+    text-align: center;
+    background-color: antiquewhite;
+}
+a:hover, .headHover:hover{
+    background-color: white;
+    color: grey;
+    font-style: italic;
+}
+.tab{
+    text-indent:40px;
+    text-align: inherit;
+}
+footer, address a{
+    background-color: peachpuff;
+    color: white;
+    font-style: bold;
+    text-align: center;
+}
+/*rules for home (1), total 7*/
+.sheeb img{
+    width: 200px;
+    height: auto;
+    float: right;
+}
+/*rules for favorites (3), total 10*/
+.song{
+    text-align: center;
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.song audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel{
+    background-color:peachpuff;
+    color: grey;
+}
+.video{
+    text-align: center;
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*rules for contact (4), total 14*/
+
+.contactTitle{
+    text-align: center;
+    font-size: 30px;
+    background-color: peachpuff;
+    color: grey;
+}
+.contactTable table, .contactTable form{
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contactTable form, .contactTable tr{
+    background-color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+}
+.contactBackground{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/featured-geometric.png);
+    width: 100%;
+}
+/*rules for resume (6), total 20*/
+.objective{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: peachpuff;
+    color:dimgray;
+}
+.education{
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    background-color: antiquewhite;
+    color: grey;
+}
+.workHistory{
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    background-color:gainsboro;
+    color:darksalmon;
+}
+.projects{
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    background-color:peachpuff;
+    color:dimgray;
+}
+.references{
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    background-color: grey;
+    color:bisque;
+}
+.references a{
+    color: white;
+    font-style: italic;
+}
